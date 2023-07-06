@@ -1,4 +1,4 @@
-package com.librerianacional.interactions;
+package com.youtube.interactions;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 
-import static com.librerianacional.ui.HomeUI1.LBL_NAME_PRODUCT;
+import static com.youtube.ui.CatalogoUI.LBL_NAME_PRODUCT;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class ClickRamdom implements Interaction {

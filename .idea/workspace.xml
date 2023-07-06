@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41693ed8-b092-4b85-8c1c-45ae52710f02" name="Changes" comment="" />
+    <list default="true" id="41693ed8-b092-4b85-8c1c-45ae52710f02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/interactions/ClickRamdom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/interactions/ClickRamdom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/questions/GetNameVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/questions/GetNameVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/questions/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/questions/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/HomeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/ProductDetailsTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/ProductDetailsTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/CatalogoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/CatalogoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/HomeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/HomeUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/ProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/youtube/StepDefinitions/PlayVideoStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/youtube/StepDefinitions/PlayVideoStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/youtube/runner/PlayVideoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/youtube/runner/PlayVideoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PlayVideo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PlayVideo.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,9 +47,49 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Youtube/src/test/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Youtube\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.youtube.interactions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PlayVideoRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.youtube.runner.PlayVideoRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PlayVideoRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
