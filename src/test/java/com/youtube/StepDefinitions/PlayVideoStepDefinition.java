@@ -1,5 +1,8 @@
 package com.youtube.StepDefinitions;
 
+import com.youtube.interactions.GetCartItems;
+import com.youtube.interactions.GetName;
+import com.youtube.questions.GetNameValidation;
 import com.youtube.questions.GetNameVideo;
 import com.youtube.questions.Product;
 import com.youtube.tasks.HomeTask;
@@ -29,23 +32,17 @@ public class PlayVideoStepDefinition {
     @When("user click  on  video tittle")
     public void userClickOnVideoTittle() {
         theActorInTheSpotlight().attemptsTo(
-                HomeTask.Home()
-                //ProductDetailsTask.on()
-        );
-
-
-        Nombre = theActorInTheSpotlight().asksFor(
-                GetNameVideo.from()
+                HomeTask.Home(),
+                ProductDetailsTask.on()
 
         );
 
-        System.out.println(Nombre);
     }
     @Then("user can watch the video with its description")
     public void userCanWatchTheVideoWithItsDescription() {
         theActorInTheSpotlight().should(
                 seeThat(
-                        Product.from(Nombre), Matchers.equalTo(true)
+                        GetNameValidation.from(), Matchers.equalTo(true)
                 )
         );
     }

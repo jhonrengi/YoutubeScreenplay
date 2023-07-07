@@ -1,6 +1,8 @@
 package com.youtube.tasks;
 
 import com.youtube.interactions.ClickRamdom;
+import com.youtube.interactions.GetCartItems;
+import com.youtube.interactions.GetName;
 import com.youtube.questions.GetNameVideo;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -12,7 +14,9 @@ public class ProductDetailsTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                (Performable) GetNameVideo.from()
+                ClickRamdom.click(),
+                GetName.name(),
+                GetCartItems.items()
         );
     }
 

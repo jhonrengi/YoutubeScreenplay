@@ -11,6 +11,7 @@ import java.util.Random;
 
 import static com.youtube.ui.CatalogoUI.LBL_NAME_PRODUCT;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static com.youtube.utils.modelo.productName;
 
 public class ClickRamdom implements Interaction {
 
@@ -23,13 +24,17 @@ public class ClickRamdom implements Interaction {
         Random random= new Random();
         int indexRandom= random.nextInt(listProducts.size());
 
-        String productName = listProducts.get(indexRandom).getText();
+         productName = listProducts.get(indexRandom).getText();
 
         listProducts.get(indexRandom).click();
 
     }
 
-    public static Performable click(){
+   public static Performable click(){
         return  instrumented(ClickRamdom.class);
     }
+
+    //public static String name(){ return ( new ClickRamdom().productName);}
+
+
 }

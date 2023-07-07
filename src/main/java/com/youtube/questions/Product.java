@@ -13,6 +13,7 @@ public class Product implements Question  {
 
     @Override
     public Object answeredBy(Actor actor) {
+       //return GetNameVideo.from().answeredBy(actor).equals(ProductUI.TXT_INFORMATION.resolveFor(actor).getText());
        return  titulo.equals(ProductUI.TXT_INFORMATION.resolveFor(actor).getText());
 
     }

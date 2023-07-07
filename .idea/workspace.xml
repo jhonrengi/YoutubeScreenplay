@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41693ed8-b092-4b85-8c1c-45ae52710f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/interactions/ClickRamdom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/interactions/ClickRamdom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/questions/GetNameVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/questions/GetNameVideo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/questions/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/questions/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/HomeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/ProductDetailsTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/tasks/ProductDetailsTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/CatalogoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/CatalogoUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/HomeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/HomeUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youtube/ui/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youtube/ui/ProductUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/youtube/StepDefinitions/PlayVideoStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/youtube/StepDefinitions/PlayVideoStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/youtube/runner/PlayVideoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/youtube/runner/PlayVideoRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PlayVideo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PlayVideo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Youtube/src/test/resources"
+    "last_opened_file_path": "D:/Falabella"
   }
 }]]></component>
   <component name="RecentsManager">
